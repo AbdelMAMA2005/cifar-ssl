@@ -1,0 +1,9 @@
+seed: 42
+data_root: /content/data
+batch_size: 128
+num_workers: 2
+epochs: 100
+optimizer: sgd
+lr: 0.1
+wd: 5.0e-4
+out_dir: /content/drive/MyDrive/cifar-ssl/runs/baseline_sgd

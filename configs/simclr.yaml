@@ -1,0 +1,8 @@
+seed: 42
+data_root: /content/data
+batch_size: 256
+epochs: 200
+lr: 3.0e-3
+temperature: 0.5
+out_dir: /content/drive/MyDrive/cifar-ssl/runs/simclr
+save_every: 50

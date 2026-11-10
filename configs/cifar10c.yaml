@@ -1,0 +1,4 @@
+ckpt: ./runs/baseline_sgd/best.pt
+encoder_kind: supervised   # ou ssl
+cifar10c_root: ./data/CIFAR-10-C
+# si encoder_kind=ssl, ajouter: linear_ckpt: ./runs/simclr/linear_clf.pt

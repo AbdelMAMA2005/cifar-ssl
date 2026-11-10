@@ -1,0 +1,4 @@
+data_root: ./data
+ckpt: ./runs/baseline_sgd/best.pt
+encoder_kind: supervised   # ou ssl
+out_dir: ./runs/baseline_sgd
